@@ -1,0 +1,13 @@
+#playArea{
+    position: relative;
+height: 1000px;
+width: 2000px;
+background-color: aquamarine;
+}
+
+.box {
+    position: absolute;
+    height: 50px;
+    width:50px;
+    background-color: red;
+}

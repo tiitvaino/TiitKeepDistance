@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Keep distance!2</title>
+    <link rel="stylesheet" href="style.css">
+    <!--script src="script.js"></script-->
+</head>
+
+<body>
+    <div id="selection">
+        <label for="boxesnum"> Enter how many boxes you want: (between 1 and 10):</label>
+        <input type="number" id="boxesnum" onchange="createDivs()" min="1" max="10">
+        <button id="myBtn">Try it</button>
+    </div>
+
+    <div id="playarea">
+        <div id="virus"></div>
+    </div>
+    <p id="coords"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
